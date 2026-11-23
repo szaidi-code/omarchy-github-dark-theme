@@ -1,0 +1,35 @@
+mode = "dark"
+
+# GitHub Dark Default semantic palette
+accent = "#4493f8"
+selection = "#264f78"
+muted = "#3d444d"
+
+background = "#0d1117"
+dark_background = "#080b10"
+darker_background = "#010409"
+lighter_background = "#212830"
+
+foreground = "#f0f6fc"
+dark_foreground = "#6e7681"
+light_foreground = "#b1bac4"
+bright_foreground = "#ffffff"
+
+hyprland_active_border = "rgba(4493f8ee) rgba(1f6febee) 45deg"
+hyprland_inactive_border = "rgba(3d444daa)"
+
+red = "#f85149"
+yellow = "#d29922"
+orange = "#db6d28"
+green = "#3fb950"
+cyan = "#39c5cf"
+blue = "#4493f8"
+magenta = "#ab7df8"
+brown = "#9e6a03"
+
+bright_red = "#ff7b72"
+bright_yellow = "#e3b341"
+bright_green = "#56d364"
+bright_cyan = "#56d4dd"
+bright_blue = "#79c0ff"
+bright_magenta = "#d2a8ff"
