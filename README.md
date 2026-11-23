@@ -76,6 +76,18 @@ omarchy plymouth set-by-theme github-dark
 - **`shell.lock.toml`** — Full `[lock]` screen section override for GitHub Dark idle/focus/error states.
 - **Zero restricted files** — No `.lua`, terminal launch configs, or `vscode.json` are shipped, so `omarchy theme install` installs cleanly without warnings.
 
+## Other Themes in This Repository
+
+Additional Omarchy themes live on their own isolated branches so `main` stays a clean single-theme install for `omarchy theme install`:
+
+| Theme | Branch | Accent | Install |
+| --- | --- | --- | --- |
+| **Destiny 2** | [`destiny-2`](https://github.com/szaidi-code/omarchy-github-dark-theme/tree/destiny-2) | `#e3c059` / `#45c8ff` | `git clone -b destiny-2 --single-branch https://github.com/szaidi-code/omarchy-github-dark-theme.git ~/.config/omarchy/themes/destiny-2 && omarchy theme set destiny-2` |
+| **Halo** | [`halo`](https://github.com/szaidi-code/omarchy-github-dark-theme/tree/halo) | `#84b853` / `#e5a93c` | `git clone -b halo --single-branch https://github.com/szaidi-code/omarchy-github-dark-theme.git ~/.config/omarchy/themes/halo && omarchy theme set halo` |
+| **Neon Rain** | [`neon-rain`](https://github.com/szaidi-code/omarchy-github-dark-theme/tree/neon-rain) | `#00e5ff` / `#ff2a85` | `git clone -b neon-rain --single-branch https://github.com/szaidi-code/omarchy-github-dark-theme.git ~/.config/omarchy/themes/neon-rain && omarchy theme set neon-rain` |
+
+Each branch clones directly into `~/.config/omarchy/themes/<name>` and stays up to date with `omarchy theme update`.
+
 ## License
 
 [MIT](LICENSE), copyright 2026 szaidi-code.
